@@ -19,4 +19,12 @@ public class CarModel {
 
     @Field(type = FieldType.Text, name = "brand")
     private String brand;
+
+    @Field(type = FieldType.Integer, name = "year")
+    private int year;
+
+    @Field(type = FieldType.Double, name = "price")
+    private double price;
+
+
 }
